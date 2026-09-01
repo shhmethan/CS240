@@ -99,11 +99,11 @@ The program generates random values within the supported range and converts them
 
 The required boundary tests include:
 
-| Test | Value |
-|---|---:|
-| Zero | `0` |
-| Largest 8-bit unsigned value | `255` |
-| Negative two's-complement value | `-5` |
+| Test                            | Value |
+|---------------------------------|------:|
+| Zero                            |   `0` |
+| Largest 8-bit unsigned value    | `255` |
+| Negative two's-complement value |  `-5` |
 
 For example, `-5` represented using 8-bit two's complement is:
 
